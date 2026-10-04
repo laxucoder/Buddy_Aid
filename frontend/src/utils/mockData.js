@@ -1,0 +1,8 @@
+export const reports=[
+{id:'R-001',title:'Street light issue',category:'Lighting',location:'Sector 62, Greater Noida',status:'Pending',time:'2 hours ago',votes:23,lat:28.628, lng:77.376,img:'https://images.unsplash.com/photo-1519501025264-65ba15a82390?auto=format&fit=crop&w=500&q=70'},
+{id:'R-002',title:'Harassment incident',category:'Harassment',location:'Knowledge Park',status:'Under Review',time:'4 hours ago',votes:18,lat:28.45,lng:77.51,img:'https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=500&q=70'},
+{id:'R-003',title:'Suspicious activity',category:'Suspicious',location:'Beta 1, Greater Noida',status:'Verified',time:'5 hours ago',votes:15,lat:28.47,lng:77.49,img:'https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=500&q=70'},
+{id:'R-004',title:'Broken road',category:'Road Issue',location:'Sector 1, Greater Noida',status:'Pending',time:'6 hours ago',votes:9,lat:28.62,lng:77.36,img:'https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=500&q=70'},
+{id:'R-005',title:'Unsafe area',category:'Unsafe Area',location:'Near Metro Station',status:'Verified',time:'8 hours ago',votes:21,lat:28.61,lng:77.37,img:'https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=500&q=70'}
+];
+export const contacts=[{id:1,name:'Mother',phone:'+91 98765 43210',type:'Primary',avatar:'https://i.pravatar.cc/100?img=47'},{id:2,name:'Brother',phone:'+91 87654 32109',type:'Secondary',avatar:'https://i.pravatar.cc/100?img=12'},{id:3,name:'Friend',phone:'+91 76432 21098',type:'Secondary',avatar:'https://i.pravatar.cc/100?img=33'}];

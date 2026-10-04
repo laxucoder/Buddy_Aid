@@ -1,0 +1,1 @@
+import mongoose from 'mongoose';const schema=new mongoose.Schema({userId:{type:mongoose.Schema.Types.ObjectId,ref:'User'},status:{type:String,enum:['active','ended'],default:'active'},latitude:Number,longitude:Number,startedAt:{type:Date,default:Date.now},endedAt:Date,recordingUrl:String},{timestamps:true});export default mongoose.model('Emergency',schema);

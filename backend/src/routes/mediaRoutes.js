@@ -1,0 +1,1 @@
+import {Router} from 'express';import multer from 'multer';import {auth} from '../middleware/authMiddleware.js';import {uploadMedia} from '../controllers/mediaController.js';const upload=multer({storage:multer.memoryStorage(),limits:{fileSize:50*1024*1024}});const r=Router();r.post('/upload',auth,upload.single('file'),uploadMedia);export default r;

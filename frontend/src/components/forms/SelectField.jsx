@@ -1,0 +1,1 @@
+export default function SelectField({label,children,...props}){return <label className="block"><span className="label block mb-1.5">{label}</span><select className="field" {...props}>{children}</select></label>}

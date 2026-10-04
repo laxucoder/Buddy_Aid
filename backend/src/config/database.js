@@ -1,0 +1,1 @@
+import mongoose from 'mongoose';export async function connectDB(){if(!process.env.MONGODB_URI){console.warn('MONGODB_URI missing — API will run without DB for demo');return;}try{await mongoose.connect(process.env.MONGODB_URI);console.log('MongoDB connected');}catch(err){console.error('MongoDB connection failed:',err.message);}}

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1536" height="512" viewBox="0 0 1536 512"
+     role="img" aria-labelledby="title desc">
+  <title id="title">Buddy Aid</title>
+  <desc id="desc">Buddy Aid logo with a pink-red-orange shield and white guardian symbol, followed by Buddy in navy and Aid in pink-red.</desc>
+
+  <defs>
+    <linearGradient id="shieldGradient" x1="0%" y1="0%" x2="82%" y2="100%">
+      <stop offset="0%" stop-color="#F50073"/>
+      <stop offset="48%" stop-color="#F8175B"/>
+      <stop offset="100%" stop-color="#FF5A22"/>
+    </linearGradient>
+
+    <linearGradient id="aidGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F50073"/>
+      <stop offset="100%" stop-color="#F20B57"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1536" height="512" fill="#FFFFFF"/>
+
+  <!-- Shield -->
+  <path d="
+    M230 61
+    C282 95 333 111 394 121
+    L394 245
+    C394 337 340 408 230 441
+    C120 408 66 337 66 245
+    L66 121
+    C127 111 178 95 230 61
+    Z"
+    fill="url(#shieldGradient)"/>
+
+  <!-- Orange-red lower shield highlight -->
+  <path d="
+    M66 318
+    C119 285 171 271 218 274
+    C274 278 332 309 394 350
+    C365 391 310 425 230 441
+    C155 419 101 379 66 318 Z"
+    fill="#FF4A2C"
+    opacity=".72"/>
+
+  <!-- Guardian/person -->
+  <circle cx="230" cy="190" r="40" fill="#FFFFFF"/>
+
+  <path d="
+    M145 255
+    C163 238 181 230 201 228
+    C211 240 221 250 230 258
+    C239 250 249 240 259 228
+    C279 230 297 238 315 255
+    C301 286 276 316 230 355
+    C184 316 159 286 145 255 Z"
+    fill="#FFFFFF"/>
+
+  <!-- Buddy -->
+  <text x="479" y="300"
+        font-family="Inter, Arial, Helvetica, sans-serif"
+        font-size="181"
+        font-weight="800"
+        letter-spacing="-8"
+        fill="#102A63">Buddy</text>
+
+  <!-- Aid -->
+  <text x="1100" y="300"
+        font-family="Inter, Arial, Helvetica, sans-serif"
+        font-size="181"
+        font-weight="800"
+        letter-spacing="-8"
+        fill="url(#aidGradient)">Aid</text>
+</svg>

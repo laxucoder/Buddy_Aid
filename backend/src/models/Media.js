@@ -1,0 +1,1 @@
+import mongoose from 'mongoose';const schema=new mongoose.Schema({userId:{type:mongoose.Schema.Types.ObjectId,ref:'User'},key:String,url:String,type:String,size:Number,context:{type:String,enum:['report','emergency','profile','support'],default:'report'}},{timestamps:true});export default mongoose.model('Media',schema);

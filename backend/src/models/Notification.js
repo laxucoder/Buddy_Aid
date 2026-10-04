@@ -1,0 +1,1 @@
+import mongoose from 'mongoose';const schema=new mongoose.Schema({userId:{type:mongoose.Schema.Types.ObjectId,ref:'User'},type:String,title:String,message:String,isRead:{type:Boolean,default:false},emergencyId:mongoose.Schema.Types.ObjectId},{timestamps:true});export default mongoose.model('Notification',schema);

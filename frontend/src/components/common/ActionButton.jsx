@@ -1,0 +1,1 @@
+export default function ActionButton({children,variant='primary',...props}){return <button className={`btn ${variant==='orange'?'btn-orange':variant==='outline'?'btn-outline':variant==='ghost'?'btn-ghost':'btn-primary'}`} {...props}>{children}</button>}

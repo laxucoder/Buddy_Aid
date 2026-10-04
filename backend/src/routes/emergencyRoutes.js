@@ -1,0 +1,1 @@
+import {Router} from 'express';import {auth} from '../middleware/authMiddleware.js';import {startEmergency,endEmergency,updateLocation,listEmergencies} from '../controllers/emergencyController.js';const r=Router();r.get('/',auth,listEmergencies);r.post('/',auth,startEmergency);r.patch('/:id/location',auth,updateLocation);r.patch('/:id/end',auth,endEmergency);export default r;

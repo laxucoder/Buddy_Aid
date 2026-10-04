@@ -1,0 +1,1 @@
+import {Router} from 'express';import {sendOtp,verifyOtpController} from '../controllers/authController.js';const r=Router();r.post('/send-otp',sendOtp);r.post('/verify-otp',verifyOtpController);export default r;

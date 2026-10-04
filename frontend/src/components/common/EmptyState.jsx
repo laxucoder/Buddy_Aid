@@ -1,0 +1,1 @@
+import {Inbox} from 'lucide-react';export default function EmptyState({title='Nothing here yet',text}){return <div className="thin-card p-10 text-center"><Inbox className="mx-auto text-[#f31f58]" size={30}/><h3 className="font-extrabold mt-3">{title}</h3>{text&&<p className="muted text-sm mt-1">{text}</p>}</div>}

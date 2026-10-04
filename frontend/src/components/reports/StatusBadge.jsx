@@ -1,0 +1,1 @@
+export default function StatusBadge({status}){const c=status==='Verified'||status==='Resolved'?'success':status==='Under Review'?'review':status==='Pending'?'pending':'info';return <span className={`badge ${c}`}>{status}</span>}

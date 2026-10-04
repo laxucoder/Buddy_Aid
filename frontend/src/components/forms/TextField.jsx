@@ -1,0 +1,1 @@
+export default function TextField({label,...props}){return <label className="block"><span className="label block mb-1.5">{label}</span><input className="field" {...props}/></label>}

@@ -1,0 +1,1 @@
+export default function TextAreaField({label,...props}){return <label className="block"><span className="label block mb-1.5">{label}</span><textarea className="field py-3 h-28 resize-none" {...props}/></label>}

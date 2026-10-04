@@ -1,0 +1,2 @@
+import {createContext,useContext,useState} from 'react';
+const NotificationContext=createContext(null);export function NotificationProvider({children}){const [items,setItems]=useState([]);const add=notification=>setItems(v=>[notification,...v]);const clear=()=>setItems([]);return <NotificationContext.Provider value={{items,add,clear}}>{children}</NotificationContext.Provider>}export const useNotifications=()=>useContext(NotificationContext);

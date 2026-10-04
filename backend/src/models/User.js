@@ -1,0 +1,1 @@
+import mongoose from 'mongoose';const schema=new mongoose.Schema({name:{type:String,required:true},email:{type:String,required:true,unique:true,index:true},phone:String,role:{type:String,enum:['user','admin'],default:'user'},city:String,isBuddy:{type:Boolean,default:false},avatar:String},{timestamps:true});export default mongoose.model('User',schema);
